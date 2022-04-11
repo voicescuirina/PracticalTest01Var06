@@ -32,7 +32,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_row="0"
-            android:layout_column="1"
+            android:layout_column="2"
             android:layout_gravity="fill_horizontal"
             android:gravity="center"
             android:saveEnabled="false"
@@ -48,7 +48,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_row="0"
-            android:layout_column="2"
+            android:layout_column="1"
             android:layout_gravity="fill_horizontal"
             android:gravity="center"
             android:saveEnabled="false"
@@ -108,6 +108,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/play"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
         android:gravity="center"
         android:layout_gravity="center"/>
 

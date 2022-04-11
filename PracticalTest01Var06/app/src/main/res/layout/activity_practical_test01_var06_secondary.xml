@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PracticalTest01Var06SecondaryActivity">
+
+    <TextView
+        android:id="@+id/gained_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_row="0"
+        android:layout_column="0"
+
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:enabled="false"
+        android:gravity="center"
+        android:saveEnabled="false" />
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+</LinearLayout>
