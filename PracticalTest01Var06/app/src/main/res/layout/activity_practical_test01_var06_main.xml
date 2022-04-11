@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PracticalTest01Var06MainActivity" >
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="3">
+        <EditText
+            android:id="@+id/left_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:saveEnabled="false"
+            android:layout_columnWeight="1"
+
+            android:enabled="false"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/right_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:saveEnabled="false"
+            android:enabled="false"
+
+            />
+
+        <EditText
+            android:id="@+id/middle_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:saveEnabled="false"
+            android:enabled="false"
+            />
+
+        <CheckBox
+            android:id="@+id/hold_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:text="@string/hold"
+            android:saveEnabled="false"/>
+
+        <CheckBox
+            android:id="@+id/hold_middle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:text="@string/hold"
+            android:saveEnabled="false"/>
+
+        <CheckBox
+            android:id="@+id/hold_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:text="@string/hold"
+            android:saveEnabled="false"/>
+
+
+
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
